@@ -29,7 +29,6 @@ header{
 .conteiner-card{
   width: 400px;
   height: 700px;
-  border: solid black;
   margin: 10px;
   position: relative;
 }
@@ -86,6 +85,28 @@ img{
 
 .eco.maglione{
   left: 0;
+}
+
+.text{
+  text-align: left;
+}
+
+.brand{
+  color: rgba(142,142,142,255);
+}
+
+.clothes-name{
+  text-transform: uppercase;
+  color: rgba(33,33,33,255);
+}
+
+.solded-price{
+  color: red;
+}
+
+.original-price{
+  text-decoration: line-through;
+  color: rgba(142,142,142,255);
 }
 
 
