@@ -51,5 +51,43 @@ img{
   cursor: pointer;
 }
 
+.heart{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 15px;
+  background-color: white;
+  font-size: 30px;
+}
+
+.conteiner-card:hover .heart{
+  color: red;
+}
+
+.sold-half{
+  position: absolute;
+  bottom: 150px;
+  left: 0;
+  padding: 10px 20px;
+  background-color: red;
+  font-size: 15px;
+  color: white;
+}
+
+.eco{
+  position: absolute;
+  bottom: 150px;
+  left: 75px;
+  padding: 10px 30px;
+  background-color: rgba(0,128,0,255);
+  font-size: 15px;
+  color: white;
+}
+
+.eco.maglione{
+  left: 0;
+}
+
+
 
 
